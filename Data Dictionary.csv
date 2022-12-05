@@ -1,0 +1,24 @@
+Variable,Variable Name,Measurement Unit,Allowed Values,Description
+Population Size,_POPULATION_SIZE,Numeric,10 - 30,Size of the population
+Number of Elite Schedules,_NUM_OF_ELITE_SCHEDULES,Numeric,2 - 4,Number of schedules that are allow to continue in the algorithm
+Mutation Rate,_MUTATION_RATE,Numeric,0 - 1,Rate in which mutation of schedules will occur
+Tournament Selection Size,_TOURNAMENT_SELECTION_SIZE,Numeric,7 - 10,Number of schedules that will be used for comparisons
+Max Interations,_MAX_ITERATION,Numeric,600 - 20000,Maximum number of iterations
+Faculty Name,Full Name,Alphabet,Any,Name of the faculty member
+Availability,Availablility,"Date, Time",MWF or TR: 8am - 7:30pm,Date and time in which faculty member is available
+Courses,Courses,Alphanumeric,Subject/number,List of courses that the faculty member teaches
+Subject,Subject,Alphabet,Valid course subject,Subject of the course
+Course Number,Num,Alphanumeric,Valid course number,Number of the course
+Number of Contact Hours,# of Contact hours,Numeric,1 - 6,Number of hours a week the course meets a week
+Meeting Pattern,Meeting pattern,Numeric,"3X50', 2X75', 1X120', or 1X180'",List of combinations the courses may meet a week
+Enrollment Capacity,Enr Cpcty,Numeric,18 - 72,Maximum number of students that may enroll in a course
+Pre-Requisite,Pre-Req,Alphanumeric,Course number or None,Courses that must be taken prior to enrolling in a course
+Co-Requisite,Co-Req,Alphanumeric,Course number or None,Courses that may be taken simultaneously with another
+Potential Conflicts,Potential conflicts,Alphanumeric,Course number or None,Potentially courses that may cause a scheduling conflict with another
+Room In,Room in,Alphnumeric,Valid room number or PC LAB,Room in which a course must be assigned in
+Number of Sections,# of sections,Numeric,1 - 15,Number of sections of a course that can be allowed
+Concurrent Option,Concurrent OK?,Alphanumeric,"Yes, No, or number",If a course is allowed to have another of itself to be scheduled
+Building,BLDG,Alphabet,"W, SU, SPHS, R, CC",Building where a course may be scheduled
+Room Number,RM,Numberic,001 - 4XX,Room number
+Room Capacity,MX,Numeric,15 - 256,Maximum number of students that can be allowed in the room
+Room Type,TYPE,Alphabet,"CLASSROOM LECTURE, CLASSROOM, MTGCLASSROOM, PHYS LAB, PC LAB, ART, CHEM LAB, BIOL LAB, MUSIC, MAC LAB",Type of classroom
